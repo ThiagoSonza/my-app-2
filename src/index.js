@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'semantic-ui-css/semantic.min.css'
+import { Button } from 'semantic-ui-react'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Button>Click Here</Button>
   </React.StrictMode>,
   document.getElementById('root')
 );
