@@ -1,0 +1,42 @@
+::placeholder {
+  color: rgba(0,0,0,.8) !important
+}
+body {
+  background-color: #faf9f8;
+}
+.menu-wrapper {
+  background-color: #000 !important;
+  height: 48px;
+  border-radius: 0 !important;
+}
+.menu-wrapper a {
+  color: #fff !important;
+}
+.icon-wrapper {
+  height: 100%;
+  width: 48px;
+  z-index: 999;
+}
+.icon-wrapper svg {
+  display: block;
+  height: 18px;
+  width: 18px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  fill: #fff;
+  cursor: pointer;
+}
+.menu-search {
+  position: absolute;
+  width: 100%;
+}
+.menu-search .item{
+  margin: auto !important;
+}
+.menu-search input {
+  border: none !important;
+  border-radius: 2px !important;
+  background-color: #cfcfcf !important;
+  width: 400px;
+}
