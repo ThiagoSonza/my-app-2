@@ -1,3 +1,6 @@
+/* ################## */
+/* ###### Menu ###### */
+/* ################## */
 ::placeholder {
   color: rgba(0,0,0,.8) !important
 }
@@ -39,4 +42,37 @@ body {
   border-radius: 2px !important;
   background-color: #cfcfcf !important;
   width: 400px;
+}
+/* ################## */
+/* ###### Conteudo ###### */
+/* ################## */
+.container-content {
+  padding-top: 2rem !important;
+}
+div.menu .active {
+  border-bottom: 2px solid gray !important;
+}
+.tasks .ui.text.menu{
+  overflow: auto;
+}
+.tasks .segment {
+  border: none !important;
+  box-shadow: none !important;
+  font-size: 12px !important;
+}
+.tasks .segment table tr:hover {
+  box-shadow: 0 1.2px 3.6px rgb(0 0 0 / 11%), 0 6.4px 14.4px rgb(0 0 0 / 13%);
+}
+/* ####################### */
+/* #### MEDIA QUERIES #### */
+/* ####################### */
+@media screen and (max-width: 480px)  {
+  .menu-search {
+    display: none !important;
+  }
+}
+@media screen and (max-width:600px) {
+  .menu-search input {
+    width: 150px;
+  }
 }
